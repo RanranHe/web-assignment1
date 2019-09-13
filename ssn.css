@@ -15,6 +15,16 @@
     margin: 0px;
 }
 
+.text .slim_line {
+    size: 1px;
+    color: black;
+    margin-top: 30px;
+}
+
+.text .small_margin {
+    margin-bottom:6px;
+}
+
 .footer div {
     display: inline-block;
     float:left;
@@ -22,7 +32,13 @@
 }
 
 .page {
-    margin-right: 15%;
+    margin-right: 20%;
     margin-top: 0px;
     font-size: 15px;
+}
+
+.bottom_line {
+    margin:0;
+    size: 10px;
+    color: black;
 }
