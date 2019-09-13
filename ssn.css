@@ -1,0 +1,28 @@
+.title {
+    margin: 0px;
+}
+
+.text p {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.text h1 {
+    margin: 0px;
+}
+
+.text h2 {
+    margin: 0px;
+}
+
+.footer div {
+    display: inline-block;
+    float:left;
+    margin-bottom: 20px;
+}
+
+.page {
+    margin-right: 15%;
+    margin-top: 0px;
+    font-size: 15px;
+}
