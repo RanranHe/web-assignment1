@@ -1,0 +1,142 @@
+.top_title {
+    position: relative;
+}
+
+.left_title {
+    display: inline-block;
+    bottom: 0;
+}
+
+.left_title h1 {
+    margin: 0px;
+}
+
+.right_title {
+    display: inline-block;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    margin-right: 2.5%;
+}
+
+.rows {
+    background: rgb(255, 255, 255);
+    margin: 0;
+}
+
+.rows .title {
+    float: left;
+    width: 5%;
+    height: 152px;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 190px;
+    background: gainsboro;
+}
+
+.rows .top_cell {
+    float: left;
+    margin: 0;
+    border-top: 5px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 23%;
+    height: 50px;
+    line-height: 5px;
+}
+
+.rows .top_cell h3 {
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.rows .top_cell p {
+    margin-left: 4px;
+    font-size: 15px;
+}
+
+.rows .top_cell .first_line {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.rows .top_cell form {
+    text-align: center;
+}
+
+.rows .top_cell form input {
+    width: 95%;
+    height: 20px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+}
+
+.rows .middle_cell {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 23%;
+    height: 50px;
+    line-height: 5px;
+}
+
+.rows .middle_cell h3 {
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.rows .middle_cell p {
+    margin-left: 4px;
+    font-size: 15px;
+}
+
+.rows .middle_cell .first_line {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.rows .middle_cell form {
+    text-align: center;
+}
+
+.rows .middle_cell form input {
+    width: 95%;
+    height: 20px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+}
+
+.rows .middle_cell .middle_content {
+    margin-top: 22px;
+}
+
+.rows .middle_cell_large {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 69%;
+    height: 50px;
+    line-height: 5px;
+}
+
+.rows .middle_cell_large form {
+    text-align: center;
+}
+
+.rows .middle_cell_large form input {
+    width: 99%;
+    height: 44px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+}
