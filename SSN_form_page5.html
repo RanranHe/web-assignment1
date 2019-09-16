@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="form.css">
 </head>
 <body>
-<!--Section 1-->
+<!--Title part-->
 <div class="top_title">
     <div class="left_title">
         <h1>SOCIAL SECURITY ADMINISTRATION <br>
@@ -16,17 +16,20 @@
     </div>
 </div>
 
+<!--Section 1-->
 <div class="rows">
-    <div class="title_1">
-        <h1 align="center">1</h1>
+    <div class="title_1"> <!-- Set title align = center -->
+        <h1>1</h1> <!-- title 1 -->
     </div>
     <div class="top_cell">
         <h3>NAME</h3>
         <p>TO BE SHOWN ON CARD</p>
     </div>
-    <div class="top_cell">
-        <p class="first_line">First</p>
+    <!-- 4 cells with border => top line -->
+    <div class="top_cell"> <!-- a cell with 2px top border and 1px left border -->
+        <p class="first_line">First</p> <!-- set the margin top and left -->
         <form>
+            <!-- mouse motion -->
             <input type="text" name="firstname_1" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
                    onmouseout="this.style.backgroundColor='white';"/>
         </form>
@@ -46,11 +49,14 @@
         </form>
     </div>
 </div>
-<div class="rows">
+
+<!-- start the second line of Section 1 -->
+<div class="rows"> <!-- similar to the first line, but 1px top border instead -->
     <div class="middle_cell">
         <p>FULL NAME AT BIRTH</p>
         <p>IF OTHER THAN ABOVE</p>
     </div>
+    <!-- 3 cells => second line -->
     <div class="middle_cell">
         <p class="first_line">First</p>
         <form>
@@ -74,9 +80,11 @@
     </div>
 </div>
 <div class="rows">
+    <!-- same size cell -->
     <div class="middle_cell">
         <p class="middle_content">OTHER NAMES USED</p>
     </div>
+    <!-- larger size cell -->
     <div class="middle_cell_large">
         <form>
             <input type="text" name="othername" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
@@ -88,13 +96,14 @@
 <!--Section 2-->
 <div class="rows">
     <div class="title_2">
-        <h1 align="center">2</h1>
+        <h1>2</h1>
     </div>
     <div class="middle_cell_medium">
         <p>Social Security number previously assigned to the person</p>
         <p>listed in item 1</p>
     </div>
     <div class="middle_cell_medium">
+        <!-- draw boxes and add slashed between them -->
         <form>
             <input class="first_input" type="text" name="SSN1"
                    onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
@@ -131,7 +140,7 @@
     <!--Section 3-->
     <div class="rows">
         <div class="title_3">
-            <h1 align="center">3</h1>
+            <h1>3</h1>
         </div>
         <div class="section3_cell">
             <div class="subtitle">
@@ -139,17 +148,204 @@
                 <h3>OF BIRTH</h3>
             </div>
             <form>
-                <input class="middle_inputs" type="text" name="SSN9"
+                <input class="middle_inputs" type="text" name="birthplace"
                        onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
                        onmouseout="this.style.backgroundColor='white';"/>
             </form>
             <div class="small_title_1">
-                <p align="center">Office</p>
-                <p align="center">Use</p>
-                <p align="center">Only</p>
+                <p>Office</p>
+                <p>Use</p>
+                <p>Only</p>
             </div>
+
+            <div class="bottom_words_1">(Do Not Abbreviate)</div>
+            <div class="bottom_words_2">City</div>
+            <div class="bottom_words_3">State or Foreign Country</div>
+            <div class="bottom_words_4">FCI</div>
+        </div>
+
+        <!--Section 4-->
+        <div class="title_3">
+            <h1>4</h1>
+        </div>
+        <div class="section3_cell_small">
+            <div class="subtitle">
+                <h3>DATE</h3>
+                <h3>OF</h3>
+                <h3>BIRTH</h3>
+            </div>
+        </div>
+        <div class="section3_cell_small_1">
+            <form>
+                <input class="dob_input" type="text" name="dob"
+                       onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
+                       onmouseout="this.style.backgroundColor='white';"/>
+            </form>
+        </div>
+        <div class="section3_cell_small_2">
+            <p>MM/DD/YYYY</p>
         </div>
     </div>
 </div>
+
+<!--Section 5-->
+<div class="rows">
+    <div class="title_5">
+        <h1>5</h1>
+    </div>
+    <div class="section5_cell_1">
+        <h3>CITIZENSHIP</h3>
+        <p>(Check One)</p>
+    </div>
+    <div class="section5_cell_2">
+        <!-- 4 check boxes display inline -->
+        <form>
+            <input class="checkbox_1" type="checkbox" name="citizen1" value="citizen">&nbsp&nbspU.S. Citizen
+            <input class="checkbox_2" type="checkbox" name="citizen2" value="alien_allow">
+            <div>
+                <p>&nbsp Legal Alien</p>
+                <p>&nbsp Allowed</p>
+                <p>&nbsp To Work</p>
+            </div>
+            <input class="checkbox_3" type="checkbox" name="citizen3" value="alien_not">
+            <div>
+                <p>&nbsp&nbsp Legal Alien <u>Not</u> Allowed</p>
+                <p>&nbsp&nbsp To Work(See</p>
+                <p>&nbsp&nbsp Instructions On Page 3)</p>
+            </div>
+            <input class="checkbox_4" type="checkbox" name="citizen4" value="other">
+            <div>
+                <p>&nbsp&nbsp Other (See <u>Not</u> Allowed</p>
+                <p>&nbsp&nbsp Instructions On</p>
+                <p>&nbsp&nbsp Page 3)</p>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!--Section 6-->
+<div class="rows">
+    <div class="title_6">
+        <h1>6</h1>
+    </div>
+    <div class="section6_cell_1">
+        <h3>ETHNICITY</h3>
+        <p>Are You Hispanic or Latino?</p>
+        <p>(Your Response is Voluntary)</p>
+        <!-- Yes/No check box -->
+        <form>
+            <input class="section6_checkbox" type="checkbox" name="yes" value="yes">&nbsp&nbspYes
+            <input class="section6_checkbox" type="checkbox" name="no" value="no">&nbsp&nbspNo
+        </form>
+    </div>
+    <!--Section 7-->
+    <div class="title_6">  <!--Section 7 Title-->
+        <h1>7</h1>
+    </div>
+    <!-- Use 1 normal cell and 3 no left border cells to create a cell -->
+    <div class="section7_cell_1"> <!-- cell 1 -->
+        <h3>RACE</h3>
+        <p>Select One or More</p>
+        <p>(Your Response is Voluntary)</p>
+    </div>
+    <div class="section7_cell_2"> <!-- cell 2 -->
+        <!-- sort vertically -->
+        <form><input class="section7_checkbox_1" type="checkbox" name="yes" value="yes">&nbsp Native Hawaiian</form>
+        <form><input class="section7_checkbox_1" type="checkbox" name="no" value="no">&nbsp Alaska Native</form>
+        <form><input class="section7_checkbox_1" type="checkbox" name="yes" value="yes">&nbsp Asian</form>
+    </div>
+    <div class="section7_cell_2"> <!-- cell 3 -->
+        <!-- sort vertically -->
+        <form><input class="section7_checkbox_1" type="checkbox" name="yes" value="yes">&nbsp American Indian</form>
+        <form><input class="section7_checkbox_2" type="checkbox" name="no" value="no">
+            <div><p>&nbsp Black/African</p><p>&nbsp American</p></div></form>
+    </div>
+    <div class="section7_cell_3"> <!-- cell 4 -->
+        <!-- sort vertically -->
+        <form><input class="section7_checkbox_1" type="checkbox" name="no" value="no">
+            <div><p>&nbsp Black/African</p><p>&nbsp American</p></div></form>
+        <form><input class="section7_checkbox_2" type="checkbox" name="no" value="no">&nbsp White</form>
+    </div>
+</div>
+
+<!--Section 8-->
+<!-- Use Section 5 style -->
+<div class="rows">
+    <div class="title_8">
+        <h1>8</h1>
+    </div>
+    <div class="section8_cell_1">
+        <h3>SEX</h3>
+    </div>
+    <div class="section8_cell_2">
+        <!-- similar to Section 5-->
+        <form>
+            <input class="checkbox_1" type="checkbox" name="male" value="male">&nbsp&nbsp Male
+            <input class="checkbox_1" type="checkbox" name="female" value="female">&nbsp&nbsp Female
+        </form>
+    </div>
+</div>
+
+<!--Section 9 (similar to Section 1)-->
+<div class="rows">
+    <div class="title_9">
+        <h1>9</h1>
+    </div>
+    <div class="section9_cell_1">
+        <h3>A. PARENT/ MOTHER'S</h3>
+        <h3>&nbsp &nbsp NAME AT HER BIRTH</h3>
+    </div>
+    <div class="section9_cell_1"> <!-- a cell with 2px top border and 1px left border -->
+        <p class="first_line">First</p> <!-- set the margin top and left -->
+        <form>
+            <!-- mouse motion -->
+            <input type="text" name="firstname_3" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
+                   onmouseout="this.style.backgroundColor='white';"/>
+        </form>
+    </div>
+    <div class="section9_cell_2">
+        <p class="first_line">Full Middle Name</p>
+        <form>
+            <input type="text" name="middlename_1" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
+                   onmouseout="this.style.backgroundColor='white';"/>
+        </form>
+    </div>
+    <div class="section9_cell_2">
+        <p class="first_line">Last</p>
+        <form>
+            <input type="text" name="lastname_1" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
+                   onmouseout="this.style.backgroundColor='white';"/>
+        </form>
+    </div>
+</div>
+<div class="rows">
+    <div class="section9_cell_3">
+        <h3>B. PARENT/ MOTHER'S SOCIAL</h3>
+        <h3>&nbsp &nbsp SECURITY NUMBER</h3>
+    </div>
+    <!--<div class="section9_cell_1"> &lt;!&ndash; a cell with 2px top border and 1px left border &ndash;&gt;-->
+        <!--<p class="first_line">First</p> &lt;!&ndash; set the margin top and left &ndash;&gt;-->
+        <!--<form>-->
+            <!--&lt;!&ndash; mouse motion &ndash;&gt;-->
+            <!--<input type="text" name="firstname_3" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"-->
+                   <!--onmouseout="this.style.backgroundColor='white';"/>-->
+        <!--</form>-->
+    <!--</div>-->
+    <!--<div class="section9_cell_2">-->
+        <!--<p class="first_line">Full Middle Name</p>-->
+        <!--<form>-->
+            <!--<input type="text" name="middlename_1" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"-->
+                   <!--onmouseout="this.style.backgroundColor='white';"/>-->
+        <!--</form>-->
+    <!--</div>-->
+    <!--<div class="section9_cell_2">-->
+        <!--<p class="first_line">Last</p>-->
+        <!--<form>-->
+            <!--<input type="text" name="lastname_1" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"-->
+                   <!--onmouseout="this.style.backgroundColor='white';"/>-->
+        <!--</form>-->
+    </div>
+</div>
+
 </body>
 </html>
