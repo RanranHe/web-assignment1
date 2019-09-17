@@ -820,8 +820,9 @@
     line-height: 5px;
 }
 
-.rows .section11_cell_1 h3 {
-    margin-left: 4px;
+.rows .section11_cell_1 p .first_line{
+    margin-top: 5px;
+    font-size: 18px;
 }
 
 .rows .section11_cell_1 p {
@@ -835,4 +836,157 @@
     margin-top: 10px;
     transform : scale(2);
     display: inline-block;
+}
+
+/*Section 12*/
+.rows .title_12 {
+    float: left;
+    width: 5%;
+    height: 70px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 30px;
+    background: gainsboro;
+}
+
+.rows .title_12 h1 {
+    text-align: center;
+}
+
+.rows .section12_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    width: 31%;
+    height: 70px;
+    line-height: 5px;
+}
+
+.rows .section12_cell_1 p {
+    margin-top: 10px;
+    margin-left: 4px;
+    font-size: 18px;
+}
+
+.rows .section12_cell_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 21%;
+    height: 70px;
+    line-height: 5px;
+}
+
+.rows .section12_cell_2 .first_line {
+    margin-left: 4px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.rows .section12_cell_2 form {
+    text-align: center;
+}
+
+.rows .section12_cell_2 form input {
+    margin-top: 2px;
+    width: 95%;
+    height: 40px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+/*Section 13*/
+.rows .title_13 {
+    float: left;
+    width: 5%;
+    height: 50px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 10px;
+    background: gainsboro;
+}
+
+.rows .title_13 h1 {
+    text-align: center;
+}
+
+.rows .section13_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 50%;
+    height: 50px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section13_cell_1 p {
+    margin-top: 10px;
+    margin-left: 4px;
+    font-size: 18px;
+}
+
+.rows .section3_cell_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 20%;
+    height: 30px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section3_cell_2 .dob_input {
+    height: 20px;
+    margin: 4px;
+    width: 92%;
+    size: 1px;
+    color: black;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+.rows .section3_cell_3 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 41%;
+    height: 19px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section3_cell_3 p {
+    margin-top: 8px;
+    margin-left: 14%;
+    font-size: 14px;
+}
+
+.rows .section3_cell_empty {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 3%;
+    height: 50px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section3_cell_empty_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 5%;
+    height: 50px;
+    line-height: 5px;
+    position: relative;
 }
