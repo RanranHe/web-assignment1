@@ -206,7 +206,8 @@
 
 .rows .middle_cell_medium p {
     margin-left: 4px;
-    font-size: 15px;
+    margin-top: 12px;
+    font-size: 18px;
 }
 
 .rows .middle_cell_medium form .slash {
@@ -271,6 +272,7 @@
     border-left: 1px solid white;
     border-right: 1px solid white;
     border-bottom: 1px solid black;
+    font-size: 15px;
 }
 
 .rows .section3_cell .bottom_words_1 {
@@ -789,6 +791,48 @@
 .rows .section9_cell_5 form .checkbox_1 {
     margin-left: 10%;
     margin-top: 18px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+/*Section 11*/
+.rows .title_11 {
+    float: left;
+    width: 5%;
+    height: 70px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 32px;
+    background: gainsboro;
+}
+
+.rows .title_11 h1 {
+    text-align: center;
+}
+
+.rows .section11_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 94%;
+    height: 70px;
+    line-height: 5px;
+}
+
+.rows .section11_cell_1 h3 {
+    margin-left: 4px;
+}
+
+.rows .section11_cell_1 p {
+    margin-left: 4px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.rows .section11_cell_1 form .section11_checkbox {
+    margin-left: 5%;
+    margin-top: 10px;
     transform : scale(2);
     display: inline-block;
 }
