@@ -258,12 +258,16 @@
         <!-- sort vertically -->
         <form><input class="section7_checkbox_1" type="checkbox" name="yes" value="yes">&nbsp American Indian</form>
         <form><input class="section7_checkbox_2" type="checkbox" name="no" value="no">
-            <div><p>&nbsp Black/African</p><p>&nbsp American</p></div></form>
+            <div><p>&nbsp Black/African</p>
+                <p>&nbsp American</p></div>
+        </form>
     </div>
     <div class="section7_cell_3"> <!-- cell 4 -->
         <!-- sort vertically -->
         <form><input class="section7_checkbox_1" type="checkbox" name="no" value="no">
-            <div><p>&nbsp Black/African</p><p>&nbsp American</p></div></form>
+            <div><p>&nbsp Black/African</p>
+                <p>&nbsp American</p></div>
+        </form>
         <form><input class="section7_checkbox_2" type="checkbox" name="no" value="no">&nbsp White</form>
     </div>
 </div>
@@ -303,6 +307,7 @@
                    onmouseout="this.style.backgroundColor='white';"/>
         </form>
     </div>
+    <!--the cell doesn't have left border-->
     <div class="section9_cell_2">
         <p class="first_line">Full Middle Name</p>
         <form>
@@ -310,6 +315,7 @@
                    onmouseout="this.style.backgroundColor='white';"/>
         </form>
     </div>
+    <!--the cell doesn't have left border-->
     <div class="section9_cell_2">
         <p class="first_line">Last</p>
         <form>
@@ -321,30 +327,70 @@
 <div class="rows">
     <div class="section9_cell_3">
         <h3>B. PARENT/ MOTHER'S SOCIAL</h3>
-        <h3>&nbsp &nbsp SECURITY NUMBER</h3>
+        <p><b class="large_small_font">&nbsp &nbsp SECURITY NUMBER</b>(See instructions for 9 B on Page 3)</p>
     </div>
+    <div class="section9_cell_4">
+        <!-- draw boxes and add slashed between them -->
+        <form>
+            <input class="first_input" type="text" name="SSN1"
+                   onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
+                   onmouseout="this.style.backgroundColor='white';"/>
+            <input class="middle_inputs" type="text" name="SSN2"
+                   onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
+                   onmouseout="this.style.backgroundColor='white';"/>
+            <input class="middle_inputs" type="text" name="SSN3"
+                   onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
+                   onmouseout="this.style.backgroundColor='white';"/>
+            <h1 class="slash">-</h1>
+            <input class="first_input" type="text" name="SSN4"
+                   onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
+                   onmouseout="this.style.backgroundColor='white';"/>
+            <input class="middle_inputs" type="text" name="SSN5"
+                   onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
+                   onmouseout="this.style.backgroundColor='white';"/>
+            <h1 class="slash">-</h1>
+            <input class="first_input" type="text" name="SSN6"
+                   onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
+                   onmouseout="this.style.backgroundColor='white';"/>
+            <input class="middle_inputs" type="text" name="SSN7"
+                   onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
+                   onmouseout="this.style.backgroundColor='white';"/>
+            <input class="middle_inputs" type="text" name="SSN8"
+                   onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
+                   onmouseout="this.style.backgroundColor='white';"/>
+            <input class="middle_inputs" type="text" name="SSN9"
+                   onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"
+                   onmouseout="this.style.backgroundColor='white';"/>
+        </form>
+    </div>
+    <div class="section9_cell_5">
+        <form>
+            <input class="checkbox_1" type="checkbox" name="male" value="male">&nbsp&nbsp Unknown
+        </form>
+    </div>
+
     <!--<div class="section9_cell_1"> &lt;!&ndash; a cell with 2px top border and 1px left border &ndash;&gt;-->
-        <!--<p class="first_line">First</p> &lt;!&ndash; set the margin top and left &ndash;&gt;-->
-        <!--<form>-->
-            <!--&lt;!&ndash; mouse motion &ndash;&gt;-->
-            <!--<input type="text" name="firstname_3" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"-->
-                   <!--onmouseout="this.style.backgroundColor='white';"/>-->
-        <!--</form>-->
+    <!--<p class="first_line">First</p> &lt;!&ndash; set the margin top and left &ndash;&gt;-->
+    <!--<form>-->
+    <!--&lt;!&ndash; mouse motion &ndash;&gt;-->
+    <!--<input type="text" name="firstname_3" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"-->
+    <!--onmouseout="this.style.backgroundColor='white';"/>-->
+    <!--</form>-->
     <!--</div>-->
     <!--<div class="section9_cell_2">-->
-        <!--<p class="first_line">Full Middle Name</p>-->
-        <!--<form>-->
-            <!--<input type="text" name="middlename_1" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"-->
-                   <!--onmouseout="this.style.backgroundColor='white';"/>-->
-        <!--</form>-->
+    <!--<p class="first_line">Full Middle Name</p>-->
+    <!--<form>-->
+    <!--<input type="text" name="middlename_1" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"-->
+    <!--onmouseout="this.style.backgroundColor='white';"/>-->
+    <!--</form>-->
     <!--</div>-->
     <!--<div class="section9_cell_2">-->
-        <!--<p class="first_line">Last</p>-->
-        <!--<form>-->
-            <!--<input type="text" name="lastname_1" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"-->
-                   <!--onmouseout="this.style.backgroundColor='white';"/>-->
-        <!--</form>-->
-    </div>
+    <!--<p class="first_line">Last</p>-->
+    <!--<form>-->
+    <!--<input type="text" name="lastname_1" onmouseover="this.style.backgroundColor='rgba(103, 144, 255, 0.62)';"-->
+    <!--onmouseout="this.style.backgroundColor='white';"/>-->
+    <!--</form>-->
+</div>
 </div>
 
 </body>
