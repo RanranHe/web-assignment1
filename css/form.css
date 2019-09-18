@@ -933,7 +933,7 @@
     font-size: 18px;
 }
 
-.rows .section3_cell_2 {
+.rows .section13_cell_2 {
     float: left;
     margin: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.8);
@@ -943,7 +943,7 @@
     position: relative;
 }
 
-.rows .section3_cell_2 .dob_input {
+.rows .section13_cell_2 .dob_input {
     height: 20px;
     margin: 4px;
     width: 92%;
@@ -953,7 +953,7 @@
     font-size: 15px;
 }
 
-.rows .section3_cell_3 {
+.rows .section13_cell_3 {
     float: left;
     margin: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.8);
@@ -963,13 +963,13 @@
     position: relative;
 }
 
-.rows .section3_cell_3 p {
+.rows .section13_cell_3 p {
     margin-top: 8px;
     margin-left: 14%;
     font-size: 14px;
 }
 
-.rows .section3_cell_empty {
+.rows .section13_cell_empty {
     float: left;
     margin: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.8);
@@ -980,13 +980,375 @@
     position: relative;
 }
 
-.rows .section3_cell_empty_2 {
+/*Section 14*/
+.rows .title_14 {
+    float: left;
+    width: 5%;
+    height: 50px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 10px;
+    background: gainsboro;
+}
+
+.rows .title_14 h1 {
+    text-align: center;
+}
+
+.rows .section14_cell_1 {
     float: left;
     margin: 0;
     border-bottom: 1px solid rgba(0, 0, 0, 0.8);
     border-left: 1px solid rgba(0, 0, 0, 0.8);
-    width: 5%;
+    width: 11%;
     height: 50px;
     line-height: 5px;
     position: relative;
+}
+
+.rows .section14_cell_1 h3 {
+    margin-top: 11px;
+    margin-left: 4px;
+}
+
+.rows .section14_cell_2 {
+    float: left;
+    width: 15%;
+}
+
+.rows .section14_cell_3 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 30px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section14_cell_3 .dob_input {
+    height: 20px;
+    margin: 4px;
+    width: 92%;
+    size: 1px;
+    color: black;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+.rows .section14_cell_4 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 19px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section14_cell_4 p {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*Section 15*/
+.rows .section15_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    width: 18.8%;
+    height: 50px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section15_cell_1 h3 {
+    margin-top: 11px;
+    margin-left: 4px;
+}
+
+.rows .section15_cell_2 {
+    float: left;
+    width: 15%;
+}
+
+.rows .section15_cell_3 {
+    float: left;
+    margin: 0;
+    width: 100%;
+    height: 31px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section15_cell_3 .dob_input {
+    height: 25px;
+    margin: 4px;
+    width: 92%;
+    size: 1px;
+    color: black;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+.rows .section15_cell_4 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 19px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section15_cell_4 p {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.rows .section15_cell_empty {
+    float: left;
+    height: 50px;
+    width: 14.1%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+/*Section 16*/
+.rows .title_16 {
+    float: left;
+    width: 5%;
+    height: 80px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 40px;
+    background: gainsboro;
+}
+
+.rows .title_16 h1 {
+    text-align: center;
+}
+
+.rows .section16_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    width: 20%;
+    height: 80px;
+    line-height: 5px;
+}
+
+.rows .section16_cell_1 h3 {
+    margin-left: 4px;
+}
+
+.rows .section16_cell_1 p {
+    margin-left: 4px;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.rows .section16_cell_2 {
+    float: left;
+    width: 74.1%;
+    height: 37.5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.rows .section16_cell_3 {
+    float: left;
+    width: 74.1%;
+    height: 41.5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.rows .section16_cell_4 {
+    float: left;
+    margin: 0;
+    width: 33.3%;
+    height: 70px;
+    line-height: 5px;
+}
+
+.rows .section16_cell_4 .first_line {
+    margin-left: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.rows .section16_cell_4 form {
+    text-align: center;
+}
+
+.rows .section16_cell_4 form input {
+    margin-top: 0;
+    width: 100%;
+    height: 20px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.rows .section16_cell_5 {
+    float: left;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    line-height: 5px;
+}
+
+.rows .section16_cell_5 .first_line {
+    margin-left: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.rows .section16_cell_5 form {
+    text-align: center;
+}
+
+.rows .section16_cell_5 form input {
+    margin-top: 0;
+    width: 100%;
+    height: 17px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+/*Section 17*/
+.rows .title_17 {
+    float: left;
+    width: 5%;
+    height: 102.5px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 60px;
+    background: gainsboro;
+}
+
+.rows .title_17 h1 {
+    text-align: center;
+}
+
+.rows .section17_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 94.2%;
+    height: 42px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section17_cell_1 p {
+    margin-left: 4px;
+    font-size: 17px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.rows .section17_cell_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 27.6%;
+    height: 60px;
+    line-height: 5px;
+}
+
+.rows .section17_cell_2 h3 {
+    margin-top: 12px;
+    margin-left: 4px;
+}
+
+/*Section 18*/
+.rows .title_18 {
+    float: left;
+    width: 5%;
+    height: 60px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 22px;
+    background: gainsboro;
+}
+
+.rows .title_18 h1 {
+    text-align: center;
+}
+
+.rows .section18_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 61.5%;
+    height: 60px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section18_cell_1 h3 {
+    margin-top: 12px;
+    margin-left: 4px;
+    margin-bottom: 0;
+    width: 100%
+}
+
+.rows .section18_cell_1 form {
+    font-size: 14px;
+}
+
+.rows .section18_cell_1 form .checkbox_1 {
+    margin-left: 1.5%;
+    margin-top: 20px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+.rows .section18_cell_1 form div {
+    display: inline-block;
+    position: absolute;
+    margin-top: -2px;
+}
+
+.rows .section18_cell_1 form .checkbox_2 {
+    margin-left: 5%;
+    margin-top: 20px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+.rows .section18_cell_1 form .checkbox_3 {
+    margin-left: 20%;
+    margin-top: 20px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+.rows .section18_cell_1 form .checkbox_4 {
+    margin-left: 5%;
+    margin-top: 20px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+.rows .section18_cell_1 form .specify {
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    height: 25px;
+    width: 24%
 }
