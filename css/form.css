@@ -1352,3 +1352,186 @@
     height: 25px;
     width: 24%
 }
+
+
+/*Lower Form*/
+.lower_form {
+    background: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 14px;
+}
+
+.lower_form p {
+    margin-top: 7px;
+    margin-left: 4px;
+}
+
+.lower_form .top_cell {
+    float: left;
+    margin: 0;
+    border-top: 5px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 5px solid rgba(0, 0, 0, 0.8);
+    border-left: 5px solid rgba(0, 0, 0, 0.8);
+    width: 99%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .left_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 5px solid rgba(0, 0, 0, 0.8);
+    width: 28%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .middle_cell_small_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 16%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .middle_cell_medium {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 23%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .right_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 5px solid rgba(0, 0, 0, 0.8);
+    width: 15.7%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .left_cell_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 5px solid rgba(0, 0, 0, 0.8);
+    width: 12.5%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .right_cell_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 5px solid rgba(0, 0, 0, 0.8);
+    width: 12.5%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .middle_cell_small_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 12.23%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .left_cell_3 {
+    float: left;
+    margin: 0;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.8);
+    border-left: 5px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    width: 61.8%;
+    height: 120px;
+    line-height: 5px;
+}
+
+.lower_form .right_cell_3 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 5px solid rgba(0, 0, 0, 0.8);
+    width: 37.1%;
+    height: 60px;
+    line-height: 5px;
+}
+
+.lower_form .right_cell_4 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 5px solid rgba(0, 0, 0, 0.8);
+    width: 37.1%;
+    height: 38px;
+    line-height: 5px;
+}
+
+.lower_form .right_cell_4 p {
+    float: left;
+    margin-top: 6px;
+    margin-left: 85%;
+}
+
+.lower_form .right_cell_5 {
+    float: left;
+    margin: 0;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.8);
+    border-right: 5px solid rgba(0, 0, 0, 0.8);
+    width: 37.1%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .right_cell_5 .line_1 {
+    float: left;
+    margin-left: 1%;
+    display: inline-block;
+}
+
+.lower_form .right_cell_5 .line_2 {
+    float: left;
+    margin-left: 28.3%;
+    display: inline-block;
+    position: absolute;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    display: inline-block;
+    float:left;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin-top: 0;
+    float: left;
+    display: inline-block;
+}
+
+.footer .line_2 {
+    margin-left: 8%;
+    float: left;
+    display: inline-block;
+}
+
+.footer .page_number {
+    margin-left: 10%;
+    float: left;
+    display: inline-block;
+}
