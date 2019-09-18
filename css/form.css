@@ -1,0 +1,1537 @@
+.top_title {
+    position: relative;
+}
+
+.left_title {
+    display: inline-block;
+    bottom: 0;
+}
+
+.left_title h1 {
+    margin: 0;
+}
+
+.right_title {
+    display: inline-block;
+    bottom: 0;
+    position: absolute;
+    right: 0;
+    margin-right: 2.5%;
+}
+
+.rows {
+    background: rgb(255, 255, 255);
+    margin: 0;
+}
+
+/*Section 1*/
+.rows .title_1 {
+    float: left;
+    width: 5%;
+    height: 152px;
+    border-top: 5px solid rgb(0, 0, 0);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 110px;
+    background: gainsboro;
+}
+
+.rows .title_1 h1 {
+    text-align: center;
+}
+
+.rows .top_cell {
+    float: left;
+    margin: 0;
+    border-top: 5px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 23%;
+    height: 50px;
+    line-height: 5px;
+}
+
+.rows .top_cell h3 {
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.rows .top_cell p {
+    margin-left: 4px;
+    font-size: 15px;
+}
+
+.rows .top_cell .first_line {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.rows .top_cell form {
+    text-align: center;
+}
+
+.rows .top_cell form input {
+    width: 95%;
+    height: 20px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.rows .middle_cell {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 23%;
+    height: 50px;
+    line-height: 5px;
+}
+
+.rows .middle_cell h3 {
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.rows .middle_cell p {
+    margin-left: 4px;
+    font-size: 15px;
+}
+
+.rows .middle_cell .first_line {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.rows .middle_cell form {
+    text-align: center;
+}
+
+.rows .middle_cell form input {
+    width: 95%;
+    height: 20px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.rows .middle_cell .middle_content {
+    margin-top: 22px;
+}
+
+.rows .middle_cell_large {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 69%;
+    height: 50px;
+    line-height: 5px;
+}
+
+.rows .middle_cell_large form {
+    text-align: center;
+}
+
+.rows .middle_cell_large form input {
+    width: 99%;
+    height: 44px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+/*Section 2*/
+.rows .title_2 {
+    float: left;
+    width: 5%;
+    height: 50px;
+    /*border-top: 1px solid rgb(0, 0, 0);*/
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 10px;
+    background: gainsboro;
+}
+
+.rows .title_2 h1 {
+    text-align: center;
+}
+
+.rows .middle_cell_medium {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 46%;
+    height: 50px;
+    line-height: 5px;
+}
+
+.rows .middle_cell_medium form {
+    text-align: center;
+}
+
+.rows .middle_cell_medium form .first_input {
+    float: left;
+    margin-top: 5px;
+    margin-left: 7px;
+    margin-right: 0;
+    width: 8.5%;
+    height: 35px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.rows .middle_cell_medium form .middle_inputs {
+    float: left;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 8.5%;
+    height: 35px;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.rows .middle_cell_medium p {
+    margin-left: 4px;
+    margin-top: 12px;
+    font-size: 18px;
+}
+
+.rows .middle_cell_medium form .slash {
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+/*Section 3*/
+.rows .title_3 {
+    float: left;
+    width: 5%;
+    height: 80px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 40px;
+    background: gainsboro;
+}
+
+.rows .title_3 h1 {
+    text-align: center;
+}
+
+.rows .section3_cell {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 60%;
+    height: 80px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section3_cell .subtitle {
+    margin-top: -5px;
+    margin-left: 4px;
+    margin-bottom: 0;
+    width: 20%;
+    display: inline-block;
+    padding: 0;
+    bottom: 0;
+    height: 40px;
+}
+
+.rows .section3_cell form {
+    display: inline-block;
+    margin-left: 4px;
+    height: 40px;
+    bottom: 25px;
+    position: absolute;
+    width: 70%;
+}
+
+.rows .section3_cell form input {
+    height: 30px;
+    width: 99%;
+    size: 1px;
+    color: black;
+    border-top: 1px solid white;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    border-bottom: 1px solid black;
+    font-size: 15px;
+}
+
+.rows .section3_cell .bottom_words_1 {
+    bottom: 10px;
+    margin-left: 1%;
+    position: absolute;
+}
+
+.rows .section3_cell .bottom_words_2 {
+    bottom: 10px;
+    margin-left: 35%;
+    position: absolute;
+}
+
+.rows .section3_cell .bottom_words_3 {
+    bottom: 10px;
+    margin-left: 55%;
+    position: absolute;
+}
+
+.rows .section3_cell .bottom_words_4 {
+    bottom: 10px;
+    margin-left: 93%;
+    position: absolute;
+}
+
+.rows .section3_cell .small_title_1 {
+    float: right;
+    width: 8%;
+    height: 48px;
+    border-top: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 0;
+    line-height: 10px;
+    background: gainsboro;
+}
+
+
+.rows .section3_cell .small_title_1 p {
+    margin-top: 5px;
+    margin-bottom: 0;
+    font-size: 15px;
+    text-align: center;
+}
+
+.rows .section3_cell_small {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 8%;
+    height: 80px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section3_cell_small .subtitle {
+    margin-top: -5px;
+    margin-left: 4px;
+    margin-bottom: 0;
+    width: 20%;
+    padding: 0;
+    bottom: 0;
+    height: 40px;
+}
+
+.rows .section3_cell_small_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 19%;
+    height: 45px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section3_cell_small_1 .dob_input {
+    height: 35px;
+    margin: 4px;
+    width: 92%;
+    size: 1px;
+    color: black;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+.rows .section3_cell_small_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 19%;
+    height: 34px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section3_cell_small_2 p {
+    text-align: center;
+}
+
+/*Section 5*/
+.rows .title_5 {
+    float: left;
+    width: 5%;
+    height: 65px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 25px;
+    background: gainsboro;
+}
+
+.rows .title_5 h1 {
+    text-align: center;
+}
+
+.rows .section5_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 30%;
+    height: 65px;
+    line-height: 5px;
+}
+
+.rows .section5_cell_1 h3 {
+    margin-left: 4px;
+}
+
+.rows .section5_cell_1 p {
+    margin-left: 4px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.rows .section5_cell_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 62.5%;
+    height: 65px;
+    line-height: 5px;
+}
+
+.rows .section5_cell_2 form .checkbox_1 {
+    margin-left: 2%;
+    margin-top: 25px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+.rows .section5_cell_2 form .checkbox_2 {
+    margin-left: 2%;
+    margin-top: 25px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+.rows .section5_cell_2 form div {
+    display: inline-block;
+    position: absolute;
+    margin-top: -5px;
+}
+
+.rows .section5_cell_2 form .checkbox_3 {
+    margin-left: 16%;
+    margin-top: 25px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+.rows .section5_cell_2 form .checkbox_4 {
+    margin-left: 29%;
+    margin-top: 25px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+/*Section 6*/
+.rows .title_6 {
+    float: left;
+    width: 5%;
+    height: 110px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 75px;
+    background: gainsboro;
+}
+
+.rows .title_6 h1 {
+    text-align: center;
+}
+
+.rows .section6_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 22.5%;
+    height: 110px;
+    line-height: 5px;
+}
+
+.rows .section6_cell_1 h3 {
+    margin-left: 4px;
+}
+
+.rows .section6_cell_1 p {
+    margin-left: 4px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.rows .section6_cell_1 form .section6_checkbox {
+    margin-left: 15%;
+    margin-top: 10px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+.rows .section7_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 20%;
+    height: 110px;
+    line-height: 5px;
+}
+
+.rows .section7_cell_1 h3 {
+    margin-left: 4px;
+}
+
+.rows .section7_cell_1 p {
+    margin-left: 4px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.rows .section7_cell_2 { /*No left border*/
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 15%;
+    height: 110px;
+    line-height: 5px;
+}
+
+.rows .section7_cell_2 form .section7_checkbox_1 {
+    margin-left: 2%;
+    margin-top: 18px;
+    transform : scale(2);
+}
+
+.rows .section7_cell_2 form .section7_checkbox_2 {
+    margin-left: 2%;
+    margin-top: 38px;
+    transform: scale(2);
+    display: inline-block;
+}
+
+.rows .section7_cell_2 form div {
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px;
+}
+
+
+.rows .section7_cell_3 { /*No left border*/
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 15%;
+    height: 110px;
+    line-height: 5px;
+}
+
+.rows .section7_cell_3 form div {
+    display: inline-block;
+    position: absolute;
+    margin-top: 15px;
+}
+
+.rows .section7_cell_3 form .section7_checkbox_1 {
+    margin-left: 2%;
+    margin-top: 20px;
+    transform: scale(2);
+    display: inline-block;
+}
+
+.rows .section7_cell_3 form div {
+    display: inline-block;
+    position: absolute;
+    margin-top: 0px;
+}
+
+.rows .section7_cell_3 form .section7_checkbox_2 {
+    margin-left: 2%;
+    margin-top: 38px;
+    transform: scale(2);
+    display: inline-block;
+}
+
+/*Section 6*/
+.rows .title_8 {
+    float: left;
+    width: 5%;
+    height: 40px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 2px;
+    background: gainsboro;
+}
+
+.rows .title_8 h1 {
+    text-align: center;
+}
+
+.rows .section8_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 27.6%;
+    height: 40px;
+    line-height: 5px;
+}
+
+.rows .section8_cell_1 h3 {
+    margin-left: 4px;
+}
+
+.rows .section8_cell_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 65%;
+    height: 40px;
+    line-height: 5px;
+}
+
+.rows .section8_cell_2 form .checkbox_1 {
+    margin-left: 10%;
+    margin-top: 15px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+/*Section 9*/
+.rows .title_9 {
+    float: left;
+    width: 5%;
+    height: 101px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 60px;
+    background: gainsboro;
+}
+
+.rows .title_9 h1 {
+    text-align: center;
+}
+
+.rows .section9_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 23.5%;
+    height: 50px;
+    line-height: 5px;
+}
+
+.rows .section9_cell_1 h3 {
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.rows .section9_cell_1 .first_line {
+    margin-left: 4px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.rows .section9_cell_1 form {
+    text-align: center;
+}
+
+.rows .section9_cell_1 form input {
+    width: 95%;
+    height: 20px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.rows .section9_cell_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 23%;
+    height: 50px;
+    line-height: 5px;
+}
+
+.rows .section9_cell_2 .first_line {
+    margin-left: 4px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.rows .section9_cell_2 form {
+    text-align: center;
+}
+
+.rows .section9_cell_2 form input {
+    width: 95%;
+    height: 20px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.rows .section9_cell_3 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 40.3%;
+    height: 50px;
+    line-height: 5px;
+}
+
+.rows .section9_cell_3 h3 {
+    margin-top: 10px;
+    margin-left: 4px;
+}
+
+.rows .section9_cell_3 p b {
+    margin-top: 10px;
+    margin-left: 4px;
+    font-size: 18.72px;
+}
+
+.rows .section9_cell_4 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 43%;
+    height: 50px;
+    line-height: 5px;
+}
+
+.rows .section9_cell_4 form {
+    text-align: center;
+}
+
+.rows .section9_cell_4 form .first_input {
+    float: left;
+    margin-top: 5px;
+    margin-left: 7px;
+    margin-right: 0;
+    width: 8.5%;
+    height: 35px;
+    border: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.rows .section9_cell_4 form .middle_inputs {
+    float: left;
+    margin-top: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    width: 8.5%;
+    height: 35px;
+    border-left: 1px solid rgb(255, 255, 255);
+    border-right: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid rgb(0, 0, 0);
+    border-top: 1px solid rgb(0, 0, 0);
+    font-size: 15px;
+}
+
+.rows .section9_cell_4 p {
+    margin-left: 4px;
+    font-size: 15px;
+}
+
+.rows .section9_cell_4 form .slash {
+    float: left;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 0;
+}
+
+.rows .section9_cell_5 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 10%;
+    height: 50px;
+    line-height: 5px;
+}
+
+.rows .section9_cell_5 form .checkbox_1 {
+    margin-left: 10%;
+    margin-top: 18px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+/*Section 11*/
+.rows .title_11 {
+    float: left;
+    width: 5%;
+    height: 70px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 32px;
+    background: gainsboro;
+}
+
+.rows .title_11 h1 {
+    text-align: center;
+}
+
+.rows .section11_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 94%;
+    height: 70px;
+    line-height: 5px;
+}
+
+.rows .section11_cell_1 p .first_line{
+    margin-top: 5px;
+    font-size: 18px;
+}
+
+.rows .section11_cell_1 p {
+    margin-left: 4px;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.rows .section11_cell_1 form .section11_checkbox {
+    margin-left: 5%;
+    margin-top: 10px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+/*Section 12*/
+.rows .title_12 {
+    float: left;
+    width: 5%;
+    height: 70px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 30px;
+    background: gainsboro;
+}
+
+.rows .title_12 h1 {
+    text-align: center;
+}
+
+.rows .section12_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    width: 31%;
+    height: 70px;
+    line-height: 5px;
+}
+
+.rows .section12_cell_1 p {
+    margin-top: 10px;
+    margin-left: 4px;
+    font-size: 18px;
+}
+
+.rows .section12_cell_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 21%;
+    height: 70px;
+    line-height: 5px;
+}
+
+.rows .section12_cell_2 .first_line {
+    margin-left: 4px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.rows .section12_cell_2 form {
+    text-align: center;
+}
+
+.rows .section12_cell_2 form input {
+    margin-top: 2px;
+    width: 95%;
+    height: 40px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+/*Section 13*/
+.rows .title_13 {
+    float: left;
+    width: 5%;
+    height: 50px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 10px;
+    background: gainsboro;
+}
+
+.rows .title_13 h1 {
+    text-align: center;
+}
+
+.rows .section13_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 50%;
+    height: 50px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section13_cell_1 p {
+    margin-top: 10px;
+    margin-left: 4px;
+    font-size: 18px;
+}
+
+.rows .section13_cell_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 20%;
+    height: 30px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section13_cell_2 .dob_input {
+    height: 20px;
+    margin: 4px;
+    width: 92%;
+    size: 1px;
+    color: black;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+.rows .section13_cell_3 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 41%;
+    height: 19px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section13_cell_3 p {
+    margin-top: 8px;
+    margin-left: 14%;
+    font-size: 14px;
+}
+
+.rows .section13_cell_empty {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 3%;
+    height: 50px;
+    line-height: 5px;
+    position: relative;
+}
+
+/*Section 14*/
+.rows .title_14 {
+    float: left;
+    width: 5%;
+    height: 50px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 10px;
+    background: gainsboro;
+}
+
+.rows .title_14 h1 {
+    text-align: center;
+}
+
+.rows .section14_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 11%;
+    height: 50px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section14_cell_1 h3 {
+    margin-top: 11px;
+    margin-left: 4px;
+}
+
+.rows .section14_cell_2 {
+    float: left;
+    width: 15%;
+}
+
+.rows .section14_cell_3 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 30px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section14_cell_3 .dob_input {
+    height: 20px;
+    margin: 4px;
+    width: 92%;
+    size: 1px;
+    color: black;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+.rows .section14_cell_4 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 19px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section14_cell_4 p {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/*Section 15*/
+.rows .section15_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    width: 18.8%;
+    height: 50px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section15_cell_1 h3 {
+    margin-top: 11px;
+    margin-left: 4px;
+}
+
+.rows .section15_cell_2 {
+    float: left;
+    width: 15%;
+}
+
+.rows .section15_cell_3 {
+    float: left;
+    margin: 0;
+    width: 100%;
+    height: 31px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section15_cell_3 .dob_input {
+    height: 25px;
+    margin: 4px;
+    width: 92%;
+    size: 1px;
+    color: black;
+    border: 1px solid white;
+    font-size: 15px;
+}
+
+.rows .section15_cell_4 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 19px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section15_cell_4 p {
+    margin-top: 8px;
+    text-align: center;
+    font-size: 14px;
+}
+
+.rows .section15_cell_empty {
+    float: left;
+    height: 50px;
+    width: 14.1%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+/*Section 16*/
+.rows .title_16 {
+    float: left;
+    width: 5%;
+    height: 80px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 40px;
+    background: gainsboro;
+}
+
+.rows .title_16 h1 {
+    text-align: center;
+}
+
+.rows .section16_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    width: 20%;
+    height: 80px;
+    line-height: 5px;
+}
+
+.rows .section16_cell_1 h3 {
+    margin-left: 4px;
+}
+
+.rows .section16_cell_1 p {
+    margin-left: 4px;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+.rows .section16_cell_2 {
+    float: left;
+    width: 74.1%;
+    height: 37.5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.rows .section16_cell_3 {
+    float: left;
+    width: 74.1%;
+    height: 41.5px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+}
+
+.rows .section16_cell_4 {
+    float: left;
+    margin: 0;
+    width: 33.3%;
+    height: 70px;
+    line-height: 5px;
+}
+
+.rows .section16_cell_4 .first_line {
+    margin-left: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.rows .section16_cell_4 form {
+    text-align: center;
+}
+
+.rows .section16_cell_4 form input {
+    margin-top: 0;
+    width: 100%;
+    height: 20px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+.rows .section16_cell_5 {
+    float: left;
+    margin: 0;
+    width: 100%;
+    height: 70px;
+    line-height: 5px;
+}
+
+.rows .section16_cell_5 .first_line {
+    margin-left: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+.rows .section16_cell_5 form {
+    text-align: center;
+}
+
+.rows .section16_cell_5 form input {
+    margin-top: 0;
+    width: 100%;
+    height: 17px;
+    border-left: 2px solid rgb(255, 255, 255);
+    border-right: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(255, 255, 255);
+    border-top: 2px solid rgb(255, 255, 255);
+    font-size: 15px;
+}
+
+/*Section 17*/
+.rows .title_17 {
+    float: left;
+    width: 5%;
+    height: 102.5px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 60px;
+    background: gainsboro;
+}
+
+.rows .title_17 h1 {
+    text-align: center;
+}
+
+.rows .section17_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 94.2%;
+    height: 42px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section17_cell_1 p {
+    margin-left: 4px;
+    font-size: 17px;
+    margin-top: 8px;
+    font-weight: bold;
+}
+
+.rows .section17_cell_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 27.6%;
+    height: 60px;
+    line-height: 5px;
+}
+
+.rows .section17_cell_2 h3 {
+    margin-top: 12px;
+    margin-left: 4px;
+}
+
+/*Section 18*/
+.rows .title_18 {
+    float: left;
+    width: 5%;
+    height: 60px;
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    line-height: 22px;
+    background: gainsboro;
+}
+
+.rows .title_18 h1 {
+    text-align: center;
+}
+
+.rows .section18_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 61.5%;
+    height: 60px;
+    line-height: 5px;
+    position: relative;
+}
+
+.rows .section18_cell_1 h3 {
+    margin-top: 12px;
+    margin-left: 4px;
+    margin-bottom: 0;
+    width: 100%
+}
+
+.rows .section18_cell_1 form {
+    font-size: 14px;
+}
+
+.rows .section18_cell_1 form .checkbox_1 {
+    margin-left: 1.5%;
+    margin-top: 20px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+.rows .section18_cell_1 form div {
+    display: inline-block;
+    position: absolute;
+    margin-top: -2px;
+}
+
+.rows .section18_cell_1 form .checkbox_2 {
+    margin-left: 5%;
+    margin-top: 20px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+.rows .section18_cell_1 form .checkbox_3 {
+    margin-left: 20%;
+    margin-top: 20px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+.rows .section18_cell_1 form .checkbox_4 {
+    margin-left: 5%;
+    margin-top: 20px;
+    transform : scale(2);
+    display: inline-block;
+}
+
+.rows .section18_cell_1 form .specify {
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    height: 25px;
+    width: 24%
+}
+
+
+/*Lower Form*/
+.lower_form {
+    background: rgb(255, 255, 255);
+    margin: 0;
+    font-size: 14px;
+}
+
+.lower_form p {
+    margin-top: 7px;
+    margin-left: 4px;
+}
+
+.lower_form .top_cell {
+    float: left;
+    margin: 0;
+    border-top: 5px solid rgba(0, 0, 0, 0.8);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 5px solid rgba(0, 0, 0, 0.8);
+    border-left: 5px solid rgba(0, 0, 0, 0.8);
+    width: 99%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .left_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 5px solid rgba(0, 0, 0, 0.8);
+    width: 28%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .middle_cell_small_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 16%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .middle_cell_medium {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 23%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .right_cell_1 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 5px solid rgba(0, 0, 0, 0.8);
+    width: 15.7%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .left_cell_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 5px solid rgba(0, 0, 0, 0.8);
+    width: 12.5%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .right_cell_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 5px solid rgba(0, 0, 0, 0.8);
+    width: 12.5%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .middle_cell_small_2 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-left: 1px solid rgba(0, 0, 0, 0.8);
+    width: 12.23%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .left_cell_3 {
+    float: left;
+    margin: 0;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.8);
+    border-left: 5px solid rgba(0, 0, 0, 0.8);
+    border-right: 1px solid rgba(0, 0, 0, 0.8);
+    width: 61.8%;
+    height: 120px;
+    line-height: 5px;
+}
+
+.lower_form .right_cell_3 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 5px solid rgba(0, 0, 0, 0.8);
+    width: 37.1%;
+    height: 60px;
+    line-height: 5px;
+}
+
+.lower_form .right_cell_4 {
+    float: left;
+    margin: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    border-right: 5px solid rgba(0, 0, 0, 0.8);
+    width: 37.1%;
+    height: 38px;
+    line-height: 5px;
+}
+
+.lower_form .right_cell_4 p {
+    float: left;
+    margin-top: 6px;
+    margin-left: 85%;
+}
+
+.lower_form .right_cell_5 {
+    float: left;
+    margin: 0;
+    border-bottom: 5px solid rgba(0, 0, 0, 0.8);
+    border-right: 5px solid rgba(0, 0, 0, 0.8);
+    width: 37.1%;
+    height: 20px;
+    line-height: 5px;
+}
+
+.lower_form .right_cell_5 .line_1 {
+    float: left;
+    margin-left: 1%;
+    display: inline-block;
+}
+
+.lower_form .right_cell_5 .line_2 {
+    float: left;
+    margin-left: 28.3%;
+    display: inline-block;
+    position: absolute;
+}
+
+/*footer*/
+.footer {
+    width: 100%;
+    display: inline-block;
+    float:left;
+    margin-bottom: 20px;
+}
+
+.footer p {
+    margin-top: 0;
+    float: left;
+    display: inline-block;
+}
+
+.footer .line_2 {
+    margin-left: 8%;
+    float: left;
+    display: inline-block;
+}
+
+.footer .page_number {
+    margin-left: 10%;
+    float: left;
+    display: inline-block;
+}
